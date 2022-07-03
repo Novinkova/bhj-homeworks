@@ -30,7 +30,7 @@ chatWidget.addEventListener('keydown', (event) => {
 			</div>
 			<div class='message'>
 				<div class='message__time'> ${time} </div>
-				<div class='message__text'>	${randomizer()}	</div>
+				<div class='message__text'> ${randomizer()} </div>
 			</div>`;
 
 		chatWidgetInput.value = '';
